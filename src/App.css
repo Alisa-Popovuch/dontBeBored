@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: "Comic Neue", cursive;
+}
+
+.btn {
+    font-size: 18px;
+    width: 30%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #485052;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+.btn:active {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    background: -webkit-linear-gradient(45deg, #fff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+    position: relative;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+    @keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (max-width:800px) {
+
+}
+
+@media (max-width:500px) {
+    p {
+        max-width: 100%; 
+        white-space:unset;
+        word-wrap:unset;
+        overflow-wrap:unset;
+        text-wrap: wrap;
+    }
+
+    .text {
+        width: 90%;
+        height: 10%;
+    }
+    
+    .btn {
+        width: 50%;
+        font-size: 23px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
