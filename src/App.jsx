@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
-const colors = ["#D9043D", "#A6036D", "#0597F2", "#03A65A", "#F23005"]
+const colors = ["#D9043D", "#A6036D", "#A5158C", "#003092", "#F23005"]
 
 function getRandomColor() {
   return colors [Math.floor(Math.random()*colors.length)];
