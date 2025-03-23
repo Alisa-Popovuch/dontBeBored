@@ -1,12 +1,27 @@
-# React + Vite
+<div id="header" align="center">
+   <h1>Don't be bored</h1>
+   <img src="https://media.giphy.com/media/l2JhpjWPccQhsAMfu/giphy.gif?cid=790b7611ihmnzecj07sc7egn8v7100t280h47bcxhdft8pv2&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="image" width="300px"/>
+</div>
+<div id="header" align="center">
+   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=blue" alt="" width="150px"/>
+</div>
+### 🛠️ About Application
+<p>This application was created as an example of a possible application to combat boredom. While creating the application I:</p>
+<ul>
+  <li>gained access to API;</li>
+  <li>displayed the advice on the screen using the API;</li>
+  <li>implemented a button that, when clicked, will change the advice;</li>
+  <li>used useState() to create the application;</li>
+  <li>created an array of emoji and using the prescribed function I made it so that when I clicked on the button the emoji changed;</li>
+  <li>created an array of different colors and wrote a function so that when you click on a button the background color changes.</li>
+</ul>
+### 🛠️ Languages and Tools 
+  <div>
+      <img src="https://img.icons8.com/?size=48&id=20909&format=png" alt="HTML" width="40px"/>
+      <img src="https://img.icons8.com/?size=48&id=7gdY5qNXaKC0&format=png" alt="CSS" width="40px"/>
+      <img src="https://img.icons8.com/?size=48&id=108784&format=png" alt="JavaScript" width="40px"/>
+      <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="React" width="40px"/>
+  </div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ### 🛠️ Notes
+  <p>You can use my project for educational purposes.</p>
