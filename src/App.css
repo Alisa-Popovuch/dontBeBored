@@ -84,8 +84,18 @@ p {
 }
 
 @media (max-width:500px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        width: 90%;
+        font-size: 23px;
+    }
+
     p {
-        max-width: 90%; 
+        font-size: 27px;
+        max-width: 80%; 
         white-space:unset;
         word-wrap:unset;
         overflow-wrap:unset;
