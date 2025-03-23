@@ -1,8 +1,11 @@
+body {
+    background: -webkit-linear-gradient(45deg, #fff, #697565);
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     height: 100vh;
@@ -12,9 +15,9 @@
 .btn {
     font-size: 18px;
     width: 30%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
-    background-color: #485052;
+    background: #697565;
     color: #ffff;
     cursor: pointer;
     border-radius: 10px;
@@ -24,7 +27,7 @@
 }
 
 .btn:hover {
-    background-color: orange;
+    background: orange;
 }
 
 .btn:active {
@@ -33,7 +36,7 @@
 }
 
 p {
-    background: -webkit-linear-gradient(45deg, #fff, #000000);
+    background: -webkit-linear-gradient(45deg, #fff, #697565);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 35px;
@@ -70,27 +73,30 @@ p {
 }
 
 @media (max-width:800px) {
+    .text {
+        padding: 10px;
+    }
+
+    p {
+        height: 150px;
+    }
 
 }
 
 @media (max-width:500px) {
     p {
-        max-width: 100%; 
+        max-width: 90%; 
         white-space:unset;
         word-wrap:unset;
         overflow-wrap:unset;
         text-wrap: wrap;
-    }
-
-    .text {
-        width: 90%;
-        height: 10%;
+        height: 120px;
     }
     
     .btn {
-        width: 50%;
+        width: 60%;
         font-size: 23px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 9px rgba(0, 0.5, 0.5, 0.5);
     }
 }
 
